@@ -1,5 +1,8 @@
+###Traffic signs identification
+---
 TODO: Write an AI to identify which traffic sign appears in a photograph.
 
+```
 $ python traffic.py gtsrb
 Epoch 1/10
 500/500 [==============================] - 5s 9ms/step - loss: 3.7139 - accuracy: 0.1545
@@ -22,3 +25,4 @@ Epoch 9/10
 Epoch 10/10
 500/500 [==============================] - 10s 20ms/step - loss: 0.2497 - accuracy: 0.9256
 333/333 - 5s - loss: 0.1616 - accuracy: 0.9535
+```
