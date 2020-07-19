@@ -101,7 +101,6 @@ def get_model():
         # Add a hidden layer with dropout
         tf.keras.layers.Dense(128, activation="relu"),
         tf.keras.layers.Dense(128, activation="relu"),
-        #tf.keras.layers.Dense(100, activation="relu"),
         tf.keras.layers.Dropout(0.5),
 
         # Add an output layer with output units for all 10 digits
